@@ -1,46 +1,154 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link rel="stylesheet" href="./style.css">
-</head>
-<enlace rel="preconectar" href="https://fonts.googleapis.com">
-    <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
-    <enlace href="https: //fonts.googleapis.com/css2? family= Space+Grotesk:wght@500 & display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https: //fonts.googleapis.com/css2? family= Space+Grotesk:wght@500 & display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
 <body>
-   
-    <header class="header">
-        <nav>
-            <a href="#">HOLA</a>
-            <a href="#">CONOCIMIENTOS</a>
-            <a href="#">PROYECTOS</a>
-            <a href="#">CONTACTO</a>
-
-        </nav>
-        <main>
-            <section class="textos-header">
-                <h1>
-                    ¡Hola! soy
-                </h1>
-                <h2>
-                    Andrea Rosales
-                </h2>
-                <h1>
-                    Programadora,Community manager y estudiante de Diseño Grafico
-                </h1>
-                <h2>
-                    LO QUE HAGO
-                </h2>
+   <header class="header">
+    <nav class="navigation">
+        <ul>
+            <li class="navigation-item"><a href="#about">HOLA</a></li>
+            <li class="navigation-item"> <a href="#knowledges">CONOCIMIENTO</a></li>
+            <li class="navigation-item"> <a href="#projects">PROYECTOS</a></li>
+            <li class="navigation-item"><a href="#contact"><button class="btn-primary">CONTACTO</button></a></li>
+        </ul>
+    </nav>
+</header>
+    <section class="container" id="about">
+        <div class="container-presentation">
+            <p class="presentation">¡Hola! Soy</P>
+            <h1 class="name">Andrea</h1>
+            <p class="description">Community Manager, Programadora y Estudiante de Diseño y Comunicacion Visual</p>
+            <a href="#projects"><button class="btn-primary btn-secondary">LO QUE HAGO</button></a>
+        </div>
+        <div class="img">
+            <img src="./imagenesporfolio/imagen1.png" alt="ilustracion">
+        </div>
     </section>
-            <section class="imagen">
-                <img class="imagenheader" src="./undraw_Designer_life_re_6ywf.png" alt="">
-</section>
-        </main>
-
- 
-
-</body>
-</html>
+    <section class="section color-section" id="knowledges">
+        <h2 class="sub-title">Mis conocimientos</h2>
+        <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Officia, neque! Porro placeat dolorem blanditiis unde odio, cum ullam et accusamus voluptatum rem quis dignissimos, nihil doloribus nemo debitis cupiditate. Quod!</p>
+        <div class="grid">
+            <div class="knowledge">
+                <i class="fab fa-html5 html-icon"></i>
+                <p>HTML5</p>   
+            </div>
+            <div class="knowledge">
+                <i class="fab fa-css3-alt css-icon"></i>
+                <p>CSS 3</p>   
+            </div>
+            <div class="knowledge">
+                <i class="fab fa-sass sass-icon"></i>
+                <p>Sass</p>   
+            </div>
+            <div class="knowledge">
+                <i class="fab fa-js js-icon"></i>
+                <p>JavaScript</p>   
+            </div>
+            <div class="knowledge">
+                <i class="fab fa-react react-icon"></i>
+                <p>React</p>   
+            </div>
+            <div class="knowledge">
+                <i class="fab fa-git-alt git-icon"></i>
+                <p>GIT</p>   
+            </div>
+    </section>   
+    <section class="section-inspo">
+        <i class="far fa-comment-dots globo-icon"></i>
+        <p class="inspo">Lorem ipsum dolor sit amet consectetur adipisicing elit. Necessitatibus cum quod voluptas officiis, laudantium expedita nulla reprehenderit exercitationem molestiae nesciunt ut obcaecati corporis minima modi provident. Iusto tempora quo vitae?</p>
+        <h2 class="inspo-author">Anónimo</h2>
+    </section> 
+    <section class="section" id="projects">
+        <h2 class="sub-title">Mis Proyectos</h2>
+        <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Cumque distinctio dolorem similique perspiciatis dignissimos aliquam tenetur fuga quas consequuntur, laboriosam numquam velit in eligendi cum fugit rerum cupiditate, voluptatem facilis.</p>
+        <div class="grid">
+            <a href="#" class="proyect-img">
+                <img src="./imagenesporfolio/agenda.png" alt="">
+                <p class="proyect-name">Agenda</p>   
+            </a>
+            <a href="#" target="_blank" class="proyect-img">
+                <img src="./imagenesporfolio/colaboraciones.png" alt="">
+                <p class="proyect-name">Colaboraciones</p>   
+            </a>
+            <a href="#" target="_blank" class="proyect-img">
+                <img src="./imagenesporfolio/diseños.png" alt="">
+                <p class="proyect-name">Diseños</p>   
+            </a>
+            <a href="#" target="_blank" class="proyect-img">
+                <img src="./imagenesporfolio/redessociales.png" alt="">
+                <p class="proyect-name">Redes Sociales</p>   
+            </a>
+            <a href="#" target="_blank"class="proyect-img">
+                <img src="./imagenesporfolio/trabajos.png" alt="">
+                <p class="proyect-name">Trabajos</p>   
+            </a>
+            <a href="#" target="_blank" class="proyect-img">
+                <img src="./imagenesporfolio/viajes.png" alt="">
+                <p class="proyect-name">Viajes</p>   
+            </a>
+        </div>
+    </section>
+    <section class="container color-section" id="contact">
+        <div class="contact-section">
+            <div>
+                <h2 class="sub-title">Contactame</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur ullam sed temporibus, illo labore perferendis distinctio. Facilis veritatis distinctio sint. Hic reiciendis quae quaerat dignissimos a nihil ipsa odit quibusdam.</p>
+                <ul>
+                    <li><a href=""><i class="fab fa-twitter"></i>@RosalesAndrea</li></a>
+                    <li><a href=""><i class="fab fa-github-alt"></i>rosalesandrea</li></a>
+                    <li><a href=""><i class="fab fa-linkedin-in"></i>Rosales Andrea</li></a>
+                    <li><a href=""><i class="far fa-envelope"></i>rosalessandrea94@gmail.com</li></a>
+                </ul>
+            </div>  
+            <div class="form">
+                <h2 class="sub-title">Escribeme</h2>
+                <form action="https://submit-form.com/<form-id>">
+                    <div>
+                        <label for="first-name">Nombre*</label>
+                        <input type="text" name="visitor-name" id="first-name" placeholder="Ej: Andrea" aria-label="Nombre" required>
+                    </div>
+                    <div>
+                        <label for="lastname">Apellido*</label>
+                        <input type="text" name="visitor-lastname" id="lastname" placeholder="Ej: Rosales" aria-label="Apellido" required>
+                    </div>
+                    <div >
+                        <label for="email">Email*</label>
+                        <input type="mail" name="visitor-email" id="email" placeholder="Ej: rosalessandrea94@gmail.com" aria-label="Email" required >
+                    </div>
+                    <div>
+                        <label for="message">Mensaje*</label>
+                        <textarea name="Mensaje" id="message" cols="30" rows="10" class="input-control" placeholder="Escriba un mensaje aquí" aria-label="Mensaje" required=""></textarea>
+                    </div>
+                    <button class="btn-primary btn-secondary">Enviar</button>
+                </form>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <nav class="nav-footer">
+            <ul>
+                <li class="nav-footer-item"><a href="#about">HOLA</a></li>
+                <li class="nav-footer-item"> <a href="#knowledges">CONOCIMIENTO</a></li>
+                <li class="nav-footer-item"> <a href="#projects">PROYECTOS</a></li>
+                <li class="nav-footer-item"><a href="#contact">CONTACTO</a></li>
+            </ul>
+        </nav>
+        <nav>
+            <ul class="nav-icon">
+                <li><a href=""><i class="fab fa-twitter about-nav-icon"></i></li></a>
+                <li><a href=""><i class="fab fa-github-alt about-nav-icon"></i></li></a>
+                <li><a href=""><i class="fab fa-linkedin-in about-nav-icon"></i></li></a>
+                <li><a href=""><i class="far fa-envelope about-nav-icon"></i></li></a>
+            </ul>
+        </nav>
+        <p>Hecho con ❤️ por Andrea</p>
+    </footer>
+            </body>
+            </html>
